@@ -21,7 +21,7 @@ class ReciverAccount extends SenderAccount{
 }
 public class BankingAbstraction {
 	public static void main(String[] args) {
-		SenderAccount sendrefObject=new ReciverAccount();//up-casting
+		SenderAccount sendrefObject=(SenderAccount)new ReciverAccount();//up-casting
 		sendrefObject.sendingAmount();
 	}
 }
