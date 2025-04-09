@@ -10,13 +10,21 @@ public class MethodsExample {
 		System.out.println(name);
 	}
 	
+	void add() {
+		System.out.println(2+3);
+	}
 	static void sampleMethod3(MethodsExample refname) {
-		
+		refname.add();
 	}
 	public static void main(String[] args) {
 		int x = 10;
-		String name = "Madhav";
+		byte y = 20;
+		boolean cond= true;
+		
+		String name = new String();
+		
 		MethodsExample refName = new MethodsExample();
+		
 		MethodsExample.sampleMethod(10);
 		MethodsExample.sampleMethod2("Pavan");
 		MethodsExample.sampleMethod3(new MethodsExample());
