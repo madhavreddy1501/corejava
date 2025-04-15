@@ -32,5 +32,9 @@ public class StringExample {
 		for(int x = name.length()-1; x>=0; x--) {
 			System.out.println(name.charAt(x));
 		}
+		
+		Runnable runnable = () -> {
+			System.out.println();
+		};
 	}
 }
