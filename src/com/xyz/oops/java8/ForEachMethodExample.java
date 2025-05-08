@@ -23,6 +23,7 @@ public class ForEachMethodExample {
 			System.out.println(t);
 		};
 		
+		
 		arrayList.forEach(consumerObject);
 	}
 }

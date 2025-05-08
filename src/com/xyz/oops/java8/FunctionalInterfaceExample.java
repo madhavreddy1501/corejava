@@ -6,5 +6,6 @@ package com.xyz.oops.java8;
 @FunctionalInterface
 public interface FunctionalInterfaceExample {
 	public void method();//abstract method
+	
 }
 

@@ -4,6 +4,7 @@ package com.xyz.oops.java8;
 interface Student {
 	public void studentName(int x,String name);
 	
+	
 	public static void staticMethod() {
 		
 	}
